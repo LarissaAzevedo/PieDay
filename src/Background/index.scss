@@ -1,0 +1,24 @@
+.background {
+
+  img{
+    // height: 20vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  
+  // background-image: url(../img/pie-bg.jpg);
+  
+    //   background-position: center;
+    //   overflow: hidden;
+    // }
+    
+    .background-overlay{
+      position: absolute;
+      // top: 20px;
+      background-repeat: no-repeat;
+    background: rgba(111,71,255,0.41);
+    overflow: hidden;
+    height: 100vh;
+    z-index: 2;
+  }
+}

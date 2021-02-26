@@ -1,0 +1,23 @@
+footer {
+  .developer, .social-medias{
+    display: flex;
+    justify-content: center;
+  }
+
+  .developer{
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+
+  .social-medias{
+    img{
+      width: 25px;
+      padding: 10px;
+      transform: width .9s
+    }
+
+    img:hover{
+      width: 30px;
+    }
+  }
+}

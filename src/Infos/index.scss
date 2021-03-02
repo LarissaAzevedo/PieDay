@@ -1,0 +1,29 @@
+.infos {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: auto;
+  height: auto;
+  padding: 25px;
+
+
+  .news,
+  .game,
+  .peoples {
+    height: auto;
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .news {
+    background-color: yellow;
+  }
+
+  .game {
+    background-color: blue;
+  }
+
+  .peoples {
+    background-color: green;
+  }
+}

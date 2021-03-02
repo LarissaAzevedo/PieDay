@@ -1,24 +1,36 @@
 .background {
+  height: 25vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url(../img/pie-bg.jpg);
+  background-position: center;
+  overflow: hidden;
 
-  img{
-    // height: 20vh;
-    width: 100vw;
-    background-size: cover;
-  }
-  
-  // background-image: url(../img/pie-bg.jpg);
-  
-    //   background-position: center;
-    //   overflow: hidden;
-    // }
-    
-    .background-overlay{
-      position: absolute;
-      // top: 20px;
-      background-repeat: no-repeat;
-    background: rgba(111,71,255,0.41);
+  .background-overlay {
+    background-repeat: no-repeat;
+    background: rgba(111, 71, 255, 0.41);
     overflow: hidden;
     height: 100vh;
     z-index: 2;
+
+    .card-bg {
+      width: 60vw;
+      margin: 50px auto;
+      display: flex;
+      flex-direction: row;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 10px;
+
+      p {
+        text-align: justify;
+      }
+
+      img {
+        width: 120px;
+        height: 180px;
+        padding-left: 10px;
+      }
+    }
   }
 }

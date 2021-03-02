@@ -1,7 +1,10 @@
 import "./index.scss";
 
 const Game = () => {
-  return <div>game</div>;
+  return <div className="game">
+    <canvas id="canvas"></canvas>
+
+  </div>;
 };
 
 export default Game;

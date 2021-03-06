@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="developer">
-        <span>Este site foi desenvolvido por <strong>Larissa</strong> ©</span>
+        <span>Este site foi desenvolvido por <strong>LariDino</strong> ©</span>
       </div>
       <div className="social-medias">
         <a href="https://github.com/LarissaAzevedo">

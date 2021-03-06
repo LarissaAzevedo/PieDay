@@ -13,17 +13,13 @@
     height: auto;
     padding: 15px;
     margin: 10px;
-  }
+    border: solid 1px gray;
+    border-radius: 10px;
+    flex-direction: column;
 
-  .news {
-    background-color: yellow;
-  }
-
-  .game {
-    background-color: blue;
-  }
-
-  .peoples {
-    background-color: green;
+    h2{
+      font-size: 26px;
+      text-transform: capitalize;
+    }
   }
 }
